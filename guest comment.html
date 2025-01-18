@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Komentar Tamu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <style type="style.css"></style>
+  <div class="container">
+    <img src="logo.png" alt="logo" class="logo">
+    <h1>GUEST COMMENT</h1>
+    <form id="komentar-form">
+      <label>Nama:</label>
+      <input type="text" name="nama" required>
+      
+      <h4>Komentar anda sangat berarti bagi kami</h4>
+      <label>Sambutan dari Pintu:</label>
+      <input type="radio" name="pintu" value="excellent"> Excellent
+      <input type="radio" name="pintu" value="average"> Average
+      <input type="radio" name="pintu" value="poor"> Poor <br> 
+      <br> 
+      <label>Pelayanan Karyawan:</label>
+      <input type="radio" name="pelayanan" value="excellent"> Excellent
+      <input type="radio" name="pelayanan" value="average"> Average
+      <input type="radio" name="pelayanan" value="poor"> Poor <br> 
+      <br> 
+      <label>Perhatian Karyawan:</label>
+      <input type="radio" name="perhatian" value="excellent"> Excellent
+      <input type="radio" name="perhatian" value="average"> Average
+      <input type="radio" name="perhatian" value="poor"> Poor <br> 
+      <br> 
+      <label>Pilihan Menu:</label>
+      <input type="radio" name="menu" value="excellent"> Excellent
+      <input type="radio" name="menu" value="average"> Average
+      <input type="radio" name="menu" value="poor"> Poor <br> 
+      <br> 
+      <label>Tampilan Makanan:</label>
+      <input type="radio" name="tampilan" value="excellent"> Excellent
+      <input type="radio" name="tampilan" value="average"> Average
+      <input type="radio" name="tampilan" value="poor"> Poor
+      <br> 
+      <label>Kualitas Makanan:</label>
+      <input type="radio" name="kualitas" value="excellent"> Excellent
+      <input type="radio" name="kualitas" value="average"> Average
+      <input type="radio" name="kualitas" value="poor"> Poor <br> 
+      <br> 
+      <label>Kebersihan:</label>
+      <input type="radio" name="kebersihan" value="excellent"> Excellent
+      <input type="radio" name="kebersihan" value="average"> Average
+      <input type="radio" name="kebersihan" value="poor"> Poor
+      <br> 
+      <label>Keseluruhan:</label>
+      <input type="radio" name="keseluruhan" value="excellent"> Excellent
+      <input type="radio" name="keseluruhan" value="average"> Average
+      <input type="radio" name="keseluruhan" value="poor"> Poor <br> 
+      <br> 
+      <label>Komentar:</label>
+      <textarea name="komentar" required></textarea>
+      
+      <input type="submit" value="Kirim Komentar">
+    </form>
+    
+    <h2 id="komentar">Komentar:</h2>
+    <div id="komentar-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
